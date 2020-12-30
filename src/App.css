@@ -1,0 +1,30 @@
+.icon-btn {
+  background: none;
+  border: none;
+  padding: 5px 12px;
+}
+
+.start-page {
+  font-size: 30px;
+  height: 300px;
+  line-height: 300px;
+  color: #ccc;
+  text-align: center;
+}
+
+.left-panel {
+  min-height: 100vh;
+  position: relative;
+}
+
+.button-group {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.no-border {
+  border: none !important;
+  border-radius: 0% !important;
+}
