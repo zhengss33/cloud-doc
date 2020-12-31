@@ -29,6 +29,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "onlyEle": "nodemon --watch main.js --watch src/menuTemplate.js --exec \"electron .\"",
     "dev": "concurrently \"wait-on http://localhost:3000 && electron .\" \"cross-env BROWSER=none npm start\""
   },
   "eslintConfig": {
@@ -54,6 +55,7 @@
     "cross-env": "^7.0.3",
     "electron": "^11.1.1",
     "electron-is-dev": "^1.2.0",
+    "nodemon": "^2.0.6",
     "wait-on": "^5.2.0"
   }
 }
